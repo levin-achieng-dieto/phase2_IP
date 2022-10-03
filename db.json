@@ -1,0 +1,150 @@
+{
+    "soloTravel": [
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        }
+    ],
+    "familyTravel": [
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        }
+    ],
+    "groupTravel":
+    [
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        },
+        {
+            "id":0,
+            "image": "img-url",
+            "location": "location",
+            "Description": "long text",
+            "auther": "auther"
+        }
+    ],
+    "users": [
+        {
+            "id": 0,
+            "email": "email",
+            "name": "name",
+            "password": "password"
+        }
+    ]
+}
