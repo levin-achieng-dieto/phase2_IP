@@ -1,155 +1,226 @@
 {
-    "soloTravel": [
-        {
-            "id":1,
-            "image": "https://i.postimg.cc/Pq2bqQs1/matt-drenth-Bkw-a-S2-Nvg8-unsplash.jpg",
-            "location": "HOLIDAYCOTTAGES",
-            "Description": "Whether you're looking for an Airbnb alternative in the UK that's by the sea, nestled in the country or set bang in the middle of a city, you'll want to keep scrolling for our selection of self-catering providers.",
-            "auther": " ROSHINA JOWAHEER"
-        },
-        {
-            "id":2,
-            "image": "https://theexpatmummy.com/wp-content/uploads/2021/10/IMG_0125-scaled.jpeg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":3,
-            "image": "https://i.postimg.cc/N00MtW67/image.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":4,
-            "image": "https://i.postimg.cc/NFTsjtCS/pexels-tauseef-khaliq-12540840.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":5,
-            "image": "https://i.postimg.cc/d1q9JQWN/The-Chandi-Boutique-Resort-Spa-Mataram-Hotels-Combined.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        }
-    ],
-    "familyTravel": [
-        {
-            "id":1,
-            "image": "https://i.postimg.cc/154JgtyL/benoit-deschasaux-ut7-XZMqu-Co-U-unsplash.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":2,
-            "image": "https://i.postimg.cc/FzvbTrSV/pexels-andrea-piacquadio-3756158.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":3,
-            "image": "https://i.postimg.cc/HnSJbd9x/pexels-engin-akyurt-2880505.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":4,
-            "image": "https://i.postimg.cc/bvXZx6kQ/pexels-grafixartphoto-samir-belhamra-4254555.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":5,
-            "image": "https://i.postimg.cc/J0y8d8Wt/pexels-richard-hunterrice-2416472.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":6,
-            "image": "img-url",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        }
-    ],
-    "groupTravel":
-    [
-        {
-            "id":1,
-            "image": "https://i.postimg.cc/KjmLn9X9/pexels-arthouse-studio-4347763.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":2,
-            "image": "https://i.postimg.cc/76kTkBLx/pexels-arthouse-studio-4525148.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":3,
-            "image": "https://i.postimg.cc/rpCwSq8k/pexels-nadi-lindsay-5088149.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":4,
-            "image": "https://i.postimg.cc/5284VfQC/pexels-quang-nguyen-vinh-4078017.jpg",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":5,
-            "image": "img-url",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":6,
-            "image": "img-url",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        },
-        {
-            "id":7,
-            "image": "img-url",
-            "location": "location",
-            "Description": "long text",
-            "auther": "auther"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "email": "email",
-            "name": "name",
-            "password": "password"
-        },
-        {
-            "id": 2,
-            "email": "email",
-            "name": "name",
-            "password": "password"
-        },
-        {
-            "id": 3,
-            "email": "email",
-            "name": "name",
-            "password": "password"
-        }
-    ]
+  "soloTravel": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/Pq2bqQs1/matt-drenth-Bkw-a-S2-Nvg8-unsplash.jpg",
+      "location": "HOLIDAYCOTTAGES",
+      "Description": "Whether you're looking for an Airbnb alternative in the UK that's by the sea, nestled in the country or set bang in the middle of a city, you'll want to keep scrolling for our selection of self-catering providers.",
+      "auther": " ROSHINA JOWAHEER"
+    },
+    {
+      "id": 2,
+      "image": "https://theexpatmummy.com/wp-content/uploads/2021/10/IMG_0125-scaled.jpeg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/N00MtW67/image.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/NFTsjtCS/pexels-tauseef-khaliq-12540840.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/d1q9JQWN/The-Chandi-Boutique-Resort-Spa-Mataram-Hotels-Combined.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    }
+  ],
+  "familyTravel": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/154JgtyL/benoit-deschasaux-ut7-XZMqu-Co-U-unsplash.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/FzvbTrSV/pexels-andrea-piacquadio-3756158.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/HnSJbd9x/pexels-engin-akyurt-2880505.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/bvXZx6kQ/pexels-grafixartphoto-samir-belhamra-4254555.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/J0y8d8Wt/pexels-richard-hunterrice-2416472.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 6,
+      "image": "img-url",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    }
+  ],
+  "groupTravel": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/KjmLn9X9/pexels-arthouse-studio-4347763.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/76kTkBLx/pexels-arthouse-studio-4525148.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/rpCwSq8k/pexels-nadi-lindsay-5088149.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/5284VfQC/pexels-quang-nguyen-vinh-4078017.jpg",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 5,
+      "image": "img-url",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 6,
+      "image": "img-url",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    },
+    {
+      "id": 7,
+      "image": "img-url",
+      "location": "location",
+      "Description": "long text",
+      "auther": "auther"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "email",
+      "name": "name",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "email": "email",
+      "name": "name",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "email": "email",
+      "name": "name",
+      "password": "password"
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 12
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 13
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 14
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 15
+    }
+  ]
 }
