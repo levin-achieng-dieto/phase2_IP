@@ -15,7 +15,7 @@ function Form(){
                 <input type="text" className="h-12 border-2 mb-12"/><br />
                 <label className="p-5">Password:</label>
                 <input type="text" className="h-12 border-2 mb-12"/><br />
-                <Link to="/SoloTravel"><button type="submit" className="m-44 border-2 h-16 w-36 text-white bg-black">Submit</button> </Link>
+                <Link to="/SoloTravel" replace><button type="submit" className="m-44 border-2 h-16 w-36 text-white bg-black">Submit</button> </Link>
             </div>
         </form>
     )
