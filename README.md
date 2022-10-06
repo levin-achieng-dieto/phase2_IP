@@ -1,4 +1,68 @@
-# Getting Started with Create React App
+# THE ROYAL WAYS
+
+## Auther
+ ### LEVIN DIETO
+
+ ## Project Description
+
+ * The Royal Ways is one of the projects i settled on as one of the ways Moringa school school uses to moniter the the level of understanding of the content learnt. It gives the upcoming Devs the opportuinity to showcase and measure the content gained at the end of every phase. The Royal ways therefore gives an people ideas of places to visit during vacation and food suggestion they need try out as one of the ways of exploring.
+
+## Set up instructions
+ To run the Application, the user will require:
+ * A browser installed in the machine that the user will be using
+ * the user must also have a strong internet connection
+### below is the live link to the application
+
+
+### Copy Right and license
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +131,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
