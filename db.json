@@ -163,16 +163,46 @@
   ],
   "users": [
     {
-      "id": 1,
-      "email": "email",
       "name": "name",
-      "password": "password"
+      "email": "email",
+      "password": "password",
+      "id": 1
     },
     {
-      "id": 2,
-      "email": "email",
       "name": "name",
-      "password": "password"
+      "email": "email",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "name": "added",
+      "email": "levin.dieto@student.moringaschool.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "levindieto8@gmail.com",
+      "name": "LevinDieto",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "email": "levindieto8@gmail.com",
+      "name": "added",
+      "password": "876",
+      "id": 5
+    },
+    {
+      "email": "",
+      "name": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "email": "",
+      "name": "",
+      "password": "",
+      "id": 7
     }
   ]
 }

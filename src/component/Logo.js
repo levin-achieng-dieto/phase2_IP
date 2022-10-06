@@ -8,7 +8,7 @@ function Logo(){
             <h1 className="pt-12 pl-8">The Royal Ways</h1>
             <div className="flex">
             <h2 className="pr-10 pt-12">DESTINATIONS</h2>
-            <Link to="/Form" className="pr-20 pt-12">SIGN IN</Link>
+            <Link to="/Form" className="pr-20 pt-8"> <button className="bg-orange-500 h-16 w-40 rounded-2xl ">SIGN IN</button> </Link>
             </div>
         </div>
     )

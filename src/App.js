@@ -17,7 +17,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='bg-teal-100'>
       <ul>
         <li>
           <Link to="/SoloTravel" replace></Link>
@@ -32,7 +32,7 @@ function App() {
         <Route path="/GroupTravel" element={<GroupTravel />} />
         <Route path="/HotList" element={<HotList />}/>
       </Routes>
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
 import Logo from "./Logo"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 
 function Form(){
+
+    const navigate = useNavigate();
+
     const [fetched, setFetched] = React.useState([])
     function fetchingData(){
         fetch("http://localhost:3000/users")
@@ -36,25 +39,35 @@ function Form(){
         .then(response => response.json())
         .then((resp) => {
             const useriputs = [...fetched, resp]
-            console.log(useriputs);
+            // console.log(useriputs);
             setFetched(useriputs)
+            navigate('/SoloTravel')
             
         })
     }
 
     return (
-        <form onChange={captureInputs} >
+        <form >
             <Logo />
             <h1 className="text-3xl text-center pt-20 pb-28">Sign in to view our Destinations</h1>
-            <div className="text-2xl ml-96 pl-96 m-auto">
-                <label className="p-5">email: </label> 
-                <input type="text" name="email" className="h-12 border-2 mb-12" /><br />
-                <label className="p-5">Name:</label>
-                <input type="text" name="name" className="h-12 border-2 mb-12" /><br />
-                <label className="p-5">Password:</label>
-                <input type="text" name="password" className="h-12 border-2 mb-12" /><br />
-                <button className="m-44 border-2 h-16 w-36 text-white bg-black" onClick={handleSubmit}>submit</button>
-                <Link to="/SoloTravel" replace><button className="m-12 border-2 h-16 w-44 text-white bg-black">Destinations</button> </Link>
+            <div className="text-2xl ml-96 pl-96 m-auto form-inner">
+                <div className="form-group">
+                    <label className="p-5">Name:</label>
+                    <input type="text" name="name" className="h-12 border-2 mb-12" onChange={captureInputs} /><br />
+                </div>
+                <div className="form-group">
+                    <label className="p-5">email: </label> 
+                    <input type="email" name="email" className="h-12 border-2 mb-12" onChange={captureInputs} /><br />
+                </div>
+                <div className="form-group">
+                    <label className="p-5">Password:</label>
+                    <input type="password" name="password" className="h-12 border-2 mb-12" onChange={captureInputs} /><br />
+                </div>
+                <div>
+                    <input type="submit" className="m-12 border-2 h-16 w-44 text-white bg-black"  onClick={handleSubmit}></input>
+                </div>
+                {/* <button className="m-44 border-2 h-16 w-36 text-white bg-black" onClick={handleSubmit}>submit</button> */}
+                {/* <Link to="/SoloTravel" replace><button type="submit" className="m-12 border-2 h-16 w-44 text-white bg-black" >Submit</button> </Link> */}
             </div>
         </form>
     )
