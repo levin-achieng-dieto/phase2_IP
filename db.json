@@ -10,125 +10,155 @@
     {
       "id": 2,
       "image": "https://theexpatmummy.com/wp-content/uploads/2021/10/IMG_0125-scaled.jpeg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Lonely Planet",
+      "Description": "Its friendly locals and gorgeous scenery makes Albania an up-and-coming destination for solo travelers. Journey to the Blue Eye spring near Saranda and you'll encounter some of the bluest, clearest water in the world. Since you might find the water too cold to swim in, head to the Albanian coast for fun and sun on any of the country's beautiful beaches, or soak in Permet's Benja Thermal Baths — they're said to have healing properties.",
+      "auther": "@KEVIN OBORNE"
     },
     {
       "id": 3,
       "image": "https://i.postimg.cc/N00MtW67/image.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Hurtigruten",
+      "Description": "When it comes to choosing a country for a solo travel adventure, there's no better endorsement than recommendations from seasoned solo travelers who have been around the world. Ciara Johnson, blogger at Hey Ciara and solo-female-traveler extraordinaire, has visited 60 countries on her own. Her top pick for solo trips? Mexico",
+      "auther": "@borealis"
     },
     {
       "id": 4,
-      "image": "https://i.postimg.cc/NFTsjtCS/pexels-tauseef-khaliq-12540840.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "image": "https://i.postimg.cc/52NPJpHn/vojtech-bruzek-Yrxr3bs-Pd-S0-unsplash.jpg",
+      "location": "Marc Dufrense",
+      "Description": "If the idea of traveling by yourself to a country where you don't speak the language makes you nervous, then opt to visit Ireland. In Dublin, you can take a literary walking tour of the UNESCO City of Literature, browse Grafton Street's bustling shops, and cozy up in the Guinness Storehouse with a pint of the world-famous stout.",
+      "auther": "@ireland"
     },
     {
       "id": 5,
       "image": "https://i.postimg.cc/d1q9JQWN/The-Chandi-Boutique-Resort-Spa-Mataram-Hotels-Combined.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "A wrap!",
+      "Description": "Germany has several major cities that are accessible to anyone traveling on their own. Hop on a bike in Berlin to explore the city's abundance of museums, historical sites, cafés, nightclubs, and parks. You can also visit Munich during Oktoberfest, but if you'd rather avoid the crowds, you can enjoy the city's beer gardens any time of year. And if you head to Frankfurt, you'll discover an eclectic array of museums, cafés, boutiques, restaurants, and even a botanical garden in the increasingly popular city.",
+      "auther": "@never too serious"
     }
   ],
   "familyTravel": [
     {
       "id": 1,
       "image": "https://i.postimg.cc/154JgtyL/benoit-deschasaux-ut7-XZMqu-Co-U-unsplash.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Best Romantic gateways",
+      "Description": "There are a ton of things to do in Big Sur. Julia Pfeiffer Burns State Park is a must visit, home of the most photographed waterfalls in California spilling onto a secluded beach. Point Lobos State Natural Reserve, located on the north end of the Big Sur coast, offers hiking opportunities to witness abundant wildlife and SCUBA adventures",
+      "auther": "@Big Sur"
     },
     {
       "id": 2,
       "image": "https://i.postimg.cc/FzvbTrSV/pexels-andrea-piacquadio-3756158.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "New York, New York",
+      "Description": "Sleepless in Seattle made the top of the Empire State Building a must-visit for couples, and it's one of the most romantic spots in New York. The city that never sleeps has so much to offer in terms of quixotic attractions and unique things to do.",
+      "auther": "@spring in central park"
     },
     {
       "id": 3,
       "image": "https://i.postimg.cc/HnSJbd9x/pexels-engin-akyurt-2880505.jpg",
       "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "Description": "On Martha's Vineyard, you'll find friendly locals, sandy beaches that extend for miles, and warm waters in the summer. This easily accessible island, located five miles south of Cape Cod, is more laid-back than Nantucket, and provides a quintessential New England getaway. It has six small towns, each with its own charm. It's also home to some of the best beaches in Massachusetts",
+      "auther": "@Marthas Vineyard"
     },
     {
       "id": 4,
       "image": "https://i.postimg.cc/bvXZx6kQ/pexels-grafixartphoto-samir-belhamra-4254555.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Couples Hiking in Kuai",
+      "Description": "There are few places to visit in the US that exude as much romance as Hawaii. The sugar-white sandy beaches, azure waves, majestic mountains, and glimmering waterfalls are only a few of the area's most amorous attractions. Kauai, also known as the Garden Isle, is one of the state's most spectacular isles.",
+      "auther": "@Charlestone"
     },
     {
       "id": 5,
       "image": "https://i.postimg.cc/J0y8d8Wt/pexels-richard-hunterrice-2416472.jpg",
       "location": "location",
-      "Description": "long text",
-      "auther": "auther"
-    },
-    {
-      "id": 6,
-      "image": "img-url",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "Description": "As the oldest city in the Peach State, Savannah is charming, with oak trees adorned with cascading Spanish moss, stately mansions, and historic squares. With warm weather year- round and thriving cultural and culinary scenes, Savannah makes for an ideal Southern getaway",
+      "auther": "@Keywest"
     }
   ],
   "groupTravel": [
     {
       "id": 1,
       "image": "https://i.postimg.cc/KjmLn9X9/pexels-arthouse-studio-4347763.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Jamaica it is!",
+      "Description": "Unforgettable, to say the least! If what you seek is lots of entertainment, nightlife, great food, beach time, and warm weather then you don’t need to look any further than Jamaica. This island is popular for traveling with a group of friends, and for good reason. Negril is a charming town, and one of the best places to stay in Jamaica. The vibe there is always chill and inviting, especially at one of Negril’s all-inclusive resorts. You and your friends will also find more than enough things to do in Negril, including excursions that’ll help to keep your vacation fun and exciting",
+      "auther": "@Negril"
     },
     {
       "id": 2,
       "image": "https://i.postimg.cc/76kTkBLx/pexels-arthouse-studio-4525148.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Empire state",
+      "Description": "If you’re looking to travel with friends to a place filled with opportunities for exploration, New York City is a great option. Whether or not you’ve been to this city before you likely won’t have a hard time finding new things to try or reliving favorite experiences. During your NYC visit, you can also go to popular attractions like the Empire State Building, Times Square, the World Trade Center, and the Statue of Liberty. MoMA, the Met Gallery, and some of the museums in this city are quite fun to pop into as a group.",
+      "auther": "@the state of liberty"
     },
     {
       "id": 3,
       "image": "https://i.postimg.cc/rpCwSq8k/pexels-nadi-lindsay-5088149.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "Ocho Rios",
+      "Description": "If you want to have a little bit of everything in your vacation, you might want to look in the direction of Ocho Rios, Jamaica. Ocho Rios is located on the north side of Jamaica, and it is a fantastic place for anyone looking to unwind and explore at their own pace. This part of Jamaica is known for its beautiful beaches and also for adventure – you’ll easily be able to sign up for ziplining and ATV tours, and even go bobsledding down a mountain!",
+      "auther": "@jamaica"
     },
     {
       "id": 4,
       "image": "https://i.postimg.cc/5284VfQC/pexels-quang-nguyen-vinh-4078017.jpg",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "location": "The Hampton",
+      "Description": "Going to The Hamptons, New York can be a great getaway for friends, especially if you’re looking for something a little more extravagant. This destination is ideal for special occasion trips, but a spontaneous vacation with friends can also be well worth it. Your days in the Hamptons can be spent relaxing, shopping, lounging on the beach or poolside, and strolling the towns in this area",
+      "auther": "@hampton New York"
     },
     {
       "id": 5,
-      "image": "img-url",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "image": "https://i.postimg.cc/VLj6wWyr/roberto-nickson-emqn-SQw-QQDo-unsplash.jpg",
+      "location": "Montreal, Canada",
+      "Description": "One of the best vacations for a group of friends is a trip to Montreal Canada, one of the most beautiful cities in the world. Montreal vacations are ideal when you’ve only got a few clear days on your schedule, and you’re looking to have a memorable time with friends. While you’re there, definitely take some time to immerse yourself in the history of the city, indulge in the food, and explore areas like Old Montreal, Old Port, and Mile End",
+      "auther": "@montreal"
     },
     {
       "id": 6,
-      "image": "img-url",
-      "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "image": "https://i.postimg.cc/wTbW6Lhz/eddi-aguirre-ZAVHbp-On4-Jk-unsplash.jpg",
+      "location": "Turks & Coicos",
+      "Description": "In terms of where to stay, the island of Providenciales (one of about 40 islands and cays in this chain) is most convenient as it is not only beautiful, but it is also home to some of the best all-inclusive resorts in Turks & Caicos. There are also resorts like Beaches Turks & Caicos that have their own thrilling waterpark with gigantic water slides and a relaxing lazy river",
+      "auther": "@turks"
+    }
+  ],
+  "hotList": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/QdVLwZRS/luisa-brimble-2-Rr-BE90w0-T8-unsplash.jpg",
+      "location": "Western sides",
+      "Description": "Find a variety of healthy salad recipes that are fit for any occasion! From Italian-style to taco salads, there's one for every occasion. Written by Bethany Kramer who loves to celebrate the joys of simple cooking by sharing healthy, seasonal recipes that are filled with flavor.",
+      "auther": "@Luisa-brimble"
     },
     {
-      "id": 7,
-      "image": "img-url",
+      "id": 2,
+      "image": "https://i.postimg.cc/BvdSZnxm/alex-munsell-Yr4n8-O-3-UPc-unsplash.jpg",
+      "location": "Beneath the crust!",
+      "Description": "Finely diced vegetables and dried herbs are sauteed with tender bits of stew meat before braising the afternoon away in beef broth thickened slightly with butter and flour. It is TO DIE FOR and just the thing to tuck into on a cold night. Add a class of cab and a roaring fire and you’ll have to pinch yourself to make sure you’re not dreaming!",
+      "auther": "@Alex-minsel"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/R0rC401X/chad-montano-GFCYho-Re48-unsplash.jpg",
+      "location": "Cheers to Eating More Burgers!",
+      "Description": "A side of fries accompanying the burger are freshly cut thinner morsels seasoned with the right amount of salt and pepper, along with a crunchier texture and tender middle. Service is attentive and personal with Pauley himself stopping by your table to make sure you enjoying your meal. That personal touch makes a difference, and we look forward to future burgers at KP’s Kitchen",
+      "auther": "@Chad-montano"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/SNrtm1W5/emiliano-vittoriosi-OFismyez-Pn-Y-unsplash.jpg",
       "location": "location",
-      "Description": "long text",
-      "auther": "auther"
+      "Description": "The moment I walked through the front door of the hall, I breathed a sigh of relief and all my worries fell away. The weekend was ours. The energy of the simple unassuming village hall in the quirt Derbyshire countryside is incredible! Half of the participants had also been to the first retreat, and as they came through the door I heard a couple of them say. it feels like coming home. It did indeed.",
+      "auther": "@Emilliano-vittoriosi"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/6Q7Z1TWc/casey-lee-awj7s-Rvi-VXo-unsplash.jpg",
+      "location": " protein-dense,",
+      "Description": "A high protein diet supports muscle growth and repair, helps you feel energized and satiated, and can even help you maintain a healthy weight. But if you’re not eating animal products or would like to eat less meat, finding natural sources of protein can be a challenge.",
+      "auther": "@Casey-lee-awj"
+    },
+    {
+      "id": 6,
+      "image": "https://i.postimg.cc/Qx1K7v64/victoria-shes-UC0-HZd-Uit-WY-unsplash.jpg",
+      "location": "The Luscious Kenyan Nyama Choma",
+      "Description": "One of the greatest mouthwatering Kenyan cuisines that makes you wanna bite your fingers off is the famous Nyama Choma which literally means roasted meat. It is the type of meat you will remember for a lifetime once you get to eat it with your bare hands and tear off the fleshy ribs with your teeth as if nothing else ever mattered, the type of meat that creates perpetual impressions and builds memories the moment you involuntary finish off by hungrily licking your fingers and trust me when I say that once you go Nyama Choma, you never go back!",
+      "auther": "@Victoria-shes"
     }
   ],
   "users": [
@@ -143,90 +173,6 @@
       "email": "email",
       "name": "name",
       "password": "password"
-    },
-    {
-      "id": 3,
-      "email": "email",
-      "name": "name",
-      "password": "password"
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 4
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 5
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 6
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 7
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 8
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 9
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 10
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 11
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 12
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 13
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 14
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 15
-    },
-    {
-      "email": "levin.dieto@student.moringaschool.com",
-      "name": "added",
-      "password": "1234",
-      "id": 16
     }
   ]
 }

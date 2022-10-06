@@ -20,7 +20,7 @@ function GroupTravel(){
 
     const groupDestination = groups.map((group) => {
         return <Card key={group.id} image={group.image}
-        location={group.location} Destination={group.Destination}
+        location={group.location} Description={group.Description}
         auther={group.auther}/>
     })
 

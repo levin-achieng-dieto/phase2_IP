@@ -19,7 +19,7 @@ function SoloTravel(){
 
     const result = soloDestinations.map((soloDestination) => <Card key={soloDestination.id} 
     image={soloDestination.image} location={soloDestination.location}
-    description={soloDestination.Description} auther={soloDestination.auther}/>)
+    Description={soloDestination.Description} auther={soloDestination.auther}/>)
 
 
     return (
