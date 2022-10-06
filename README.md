@@ -12,13 +12,12 @@
  To run the Application, the user will require:
  * A browser installed in the machine that the user will be using
  * the user must also have a strong internet connection
-### below is the live link to the application
+## below is the live link to the application
+* https://levin-achieng-dieto.github.io/phase2_IP/
 
-
-### Copy Right and license
+## Copy Right and license
 MIT License
-
-Copyright (c) 2022 levin-achieng-dieto
+### Copyright (c) 2022 levin-achieng-dieto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,34 +36,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
