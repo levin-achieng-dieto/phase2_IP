@@ -221,6 +221,12 @@
       "name": "added",
       "password": "1234",
       "id": 15
+    },
+    {
+      "email": "levin.dieto@student.moringaschool.com",
+      "name": "added",
+      "password": "1234",
+      "id": 16
     }
   ]
 }

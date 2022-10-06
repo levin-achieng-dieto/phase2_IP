@@ -1,3 +1,4 @@
+//import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 //import NavBar from "./component/NavBar"
@@ -11,6 +12,10 @@ import HotList from './component/HotList';
 import { Route, Routes,Link } from "react-router-dom"
 
 function App() {
+
+
+  
+
   return (
     <>
       <ul>
