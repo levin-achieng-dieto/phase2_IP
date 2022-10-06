@@ -28,7 +28,7 @@ function FamilyTravel(){
         <div>
             <Logo />
             <Destinations />
-            Family Travel
+            <h1 className="text-center p-20 text-3xl font-bold"> wondering where to spend the Holiday with your Family?? We gatchu</h1>
             {familyDes}
         </div>
     )

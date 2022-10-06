@@ -26,7 +26,7 @@ function SoloTravel(){
         <div>
             <Logo />
             <Destinations />
-            <h1>Solo Travelling Destinations You Dont Want to Miss</h1>
+            <h1 className="text-center p-20 text-3xl font-bold">Solo Travelling Destinations You Dont Want to Miss</h1>
             {result}
         </div>
     )

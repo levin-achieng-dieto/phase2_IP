@@ -27,9 +27,7 @@ return (
     <>
         <Logo />
         <Destinations />
-        {/* <SoloTravel result={result}/> */}
-        {/* {result} */}
-        HOTLIST
+        <h1 className="text-center p-20 text-3xl font-bold">Explore Hot Dishes!</h1>
         {renderHotList}
     </>
 )

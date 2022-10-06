@@ -1,23 +1,20 @@
-//import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-//import NavBar from "./component/NavBar"
 import Form from "./component/Form"
 import SoloTravel from "./component/SoloTravel"
 import FamilyTravel from "./component/FamilyTravel"
 import GroupTravel from "./component/GroupTravel"
 import Home from "./component/Home"
 import HotList from './component/HotList';
-//import Logo from "./component/Logo"
 import { Route, Routes,Link } from "react-router-dom"
+
+const family = {
+  fontFamily: "font-serif"
+}
 
 function App() {
 
-
-  
-
   return (
-    <div className='bg-teal-100'>
+    <div style={family} className='bg-teal-100'>
       <ul>
         <li>
           <Link to="/SoloTravel" replace></Link>

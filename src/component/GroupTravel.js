@@ -28,7 +28,7 @@ function GroupTravel(){
         <div>
             <Logo />
             <Destinations />
-            GroupTravel
+            <h1 className="text-center p-20 text-3xl font-bold"> Life is Fun with Friends Around</h1>
             {groupDestination}
         </div>
     )
