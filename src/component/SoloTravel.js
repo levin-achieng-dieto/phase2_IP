@@ -1,16 +1,33 @@
 import React from "react";
 import Logo from "./Logo"
 import Destinations from "./Destinations"
-
-
+import Card from "./Card";
 
 
 function SoloTravel(){
+
+    const[soloDestinations, setSoloDestinations] = React.useState([])
+
+    function solo(){
+        fetch("http://localhost:3000/soloTravel")
+        .then((response) => response.json())
+        .then((resp) => setSoloDestinations(resp))
+    }
+    React.useEffect(() => {
+        return solo() 
+    }, [])
+
+    const result = soloDestinations.map((soloDestination) => <Card key={soloDestination.id} 
+    image={soloDestination.image} location={soloDestination.location}
+    description={soloDestination.Description} auther={soloDestination.auther}/>)
+
+
     return (
         <div>
             <Logo />
             <Destinations />
             <h1>Solo Travelling Destinations You Dont Want to Miss</h1>
+            {result}
         </div>
     )
 }
