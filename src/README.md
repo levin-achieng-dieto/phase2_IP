@@ -1,9 +1,6 @@
-# Phase2-IP
 # THE ROYAL WAYS
-
 ## Auther
 ### LEVIN DIETO
-
 ## Project Description
 
  * The Royal Ways is one of the projects i settled on as one of the ways Moringa school school uses to moniter the the level of understanding of the content learnt. It gives the upcoming Devs the opportuinity to showcase and measure the content gained at the end of every phase. The Royal ways therefore gives an people ideas of places to visit during vacation and food suggestion they need try out as one of the ways of exploring.

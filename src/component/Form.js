@@ -6,8 +6,10 @@ function Form(){
     const navigate = useNavigate();
 
     const [fetched, setFetched] = React.useState([])
+    
+
     function fetchingData(){
-        fetch("http://localhost:3000/users")
+        fetch("https://phase2-ip.herokuapp.com/users")
         .then((response) => response.json())
         .then((resp) => setFetched(resp))
     }
@@ -21,14 +23,17 @@ function Form(){
         name: "",
         password: ""
     })
+    //const [error, setError] = React.useState(false)
+
 
     function captureInputs(inputs){
         setFormInputs({...formInputs, [inputs.target.name]:inputs.target.value})
     }
 
+
     function handleSubmit(e){
-        e.preventDefault()
-        fetch("http://localhost:3000/users", {
+        e.preventDefault();
+        fetch("https://phase2-ip.herokuapp.com/users", {
             method:"POST",
             headers: {"Content-Type": "Application/json"},
             body: JSON.stringify(formInputs)
@@ -39,6 +44,10 @@ function Form(){
             setFetched(useriputs)
             navigate('/SoloTravel')
         })
+        
+        // if(formInputs.name.length || formInputs.email.length || formInputs.password.length === 0){
+        //     setError(true)
+        //}
     }
 
     return (
@@ -48,16 +57,22 @@ function Form(){
             <div className="text-2xl ml-96 pl-96 m-auto form-inner">
                 <div className="form-group">
                     <label className="p-5">Name</label> <br />
-                    <input required type="text" name="name" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
+                    <input type="text" name="name" placeholder="name" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
+                {/* {error ?
+                <label>Enter Username</label> : ""} */}
                 <div className="form-group">
                     <label className="p-5">email </label> <br />
-                    <input required type="email" name="email" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
+                    <input type="email" name="email" placeholder="email" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
+                {/* {error ?
+                <label>Enter Email</label> : ""} */}
                 <div className="form-group">
                     <label className="p-5">Password</label><br/>
-                    <input required type="password" name="password" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
+                    <input type="password" name="password" placeholder="password" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
+                {/* {error ?
+                <label>password is required</label> : ""} */}
                 <div>
                     <input type="submit" className="m-12 border-2 h-16 w-44 text-white bg-black bg-orange-500 h-16 w-40 rounded-2xl"  onClick={handleSubmit}></input>
                 </div>

@@ -9,7 +9,7 @@ function GroupTravel(){
     const [groups, setGroups] = React.useState([])
 
     function groupDes(){
-        fetch("http://localhost:3000/groupTravel")
+        fetch("https://phase2-ip.herokuapp.com/groupTravel")
         .then((response) => response.json())
         .then((resp) => setGroups(resp))
     }

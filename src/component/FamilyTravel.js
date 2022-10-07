@@ -9,7 +9,7 @@ function FamilyTravel(){
     const [family, setfamily] = React.useState([])
 
     function familyDestination(){
-        fetch("http://localhost:3000/familyTravel")
+        fetch("https://phase2-ip.herokuapp.com/familyTravel")
         .then((response) => response.json())
         .then((resp) => setfamily(resp))
     }

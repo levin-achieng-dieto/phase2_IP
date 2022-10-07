@@ -8,7 +8,7 @@ function HotList(){
     const[hotList, setHotList] = React.useState([])
 
     function fetchData(){
-        fetch("http://localhost:3000/hotList")
+        fetch("https://dashboard.heroku.com/apps/phase2-ip/hotList")
         .then((response) => response.json())
         .then((data) => setHotList(data))
     }
