@@ -9,8 +9,47 @@
  To run the Application, the user will require:
  * A browser installed in the machine that the user will be using
  * the user must also have a strong internet connection
+
+ # How to deploy apps for free
+Deploying single react applications using Heroku and Vercel
+
+## Single React App on Heroku
+1) Create a Heroku account.
+2) Create your app.
+3) Download Heroku CLI from [here](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+4) Run these codes.
+
+```bash
+heroku login
+```
+```bash
+git init
+```
+```bash
+heroku git:remote -a <app-name>
+```
+```bash
+heroku create -b https://github.com/mars/create-react-app-buildpack.git
+```
+```bash
+git add .
+```
+```bash
+git commit -am "my first commit"
+```
+```bash
+git push heroku main
+```
+
+## Single React App on Vercel
+1) Create a Vercel account.
+2) Linking GitHub
+3) Continue with GitHub
+4) Add GitHub Repo
+5) Choose the repo to deploy
+6) Diploy
 ## below is the live link to the application
-* https://levin-achieng-dieto.github.io/phase2_IP/
+* https://phase2-ip.vercel.app/
 
 ## Copy Right and license
 MIT License
