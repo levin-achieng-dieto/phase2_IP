@@ -23,7 +23,7 @@ function Form(){
         name: "",
         password: ""
     })
-    //const [error, setError] = React.useState(false)
+    const [error, setError] = React.useState(false)
 
 
     function captureInputs(inputs){
@@ -45,9 +45,9 @@ function Form(){
             navigate('/SoloTravel')
         })
         
-        // if(formInputs.name.length || formInputs.email.length || formInputs.password.length === 0){
-        //     setError(true)
-        //}
+        if(formInputs.name.length || formInputs.email.length || formInputs.password.length === 0){
+            setError(true)
+        }
     }
 
     return (
@@ -59,20 +59,20 @@ function Form(){
                     <label className="p-5">Name</label> <br />
                     <input type="text" name="name" placeholder="name" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
-                {/* {error ?
-                <label>Enter Username</label> : ""} */}
+                {error ?
+                <label>Enter Username</label> : ""}
                 <div className="form-group">
                     <label className="p-5">email </label> <br />
                     <input type="email" name="email" placeholder="email" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
-                {/* {error ?
-                <label>Enter Email</label> : ""} */}
+                {error ?
+                <label>Enter Email</label> : ""}
                 <div className="form-group">
                     <label className="p-5">Password</label><br/>
                     <input type="password" name="password" placeholder="password" className="h-16 border-2 mb-12 rounded-xl" onChange={captureInputs} /><br />
                 </div>
-                {/* {error ?
-                <label>password is required</label> : ""} */}
+                {error ?
+                <label>password is required</label> : ""}
                 <div>
                     <input type="submit" className="m-12 border-2 h-16 w-44 text-white bg-black bg-orange-500 h-16 w-40 rounded-2xl"  onClick={handleSubmit}></input>
                 </div>

@@ -9,7 +9,7 @@ function SoloTravel(){
     const[soloDestinations, setSoloDestinations] = React.useState([])
 
     function solo(){
-        fetch("http://localhost:3000/soloTravel")
+        fetch("https://phase2-ip.herokuapp.com/soloTravel")
         .then((response) => response.json())
         .then((resp) => setSoloDestinations(resp))
     }
