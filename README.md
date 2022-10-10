@@ -51,6 +51,8 @@ git push heroku main
 ## below is the live link to the application
 * https://phase2-ip.vercel.app/
 
+## The project Demo
+* https://drive.google.com/file/d/1pLj4KPVVkHwL2lE5pZOKkvzSaqn-rMBY/view
 ## Copy Right and license
 MIT License
 ### Copyright (c) 2022 levin-achieng-dieto
